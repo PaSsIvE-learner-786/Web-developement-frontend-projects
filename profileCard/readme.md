@@ -14,6 +14,7 @@ A simple and responsive profile card built using HTML and CSS. This project focu
 -CSS3
 
 📸 Preview
+
 ![alt text](image.png)
 
 🎯 What I Learned
