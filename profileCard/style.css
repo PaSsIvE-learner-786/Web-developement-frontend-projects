@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: rgb(237, 237, 237);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* we can alo use this */
+  /* display: grid;
+  place-items: center; */
+
+}
+.card{
+  height: 300px;
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.136);
+
+  background-color: white;
+}
+.card-header{
+  height: 35%;
+  width: 100%;
+  background-color: rgb(100, 90, 234);
+  
+  border-radius: 20px 20px 0 0;
+
+  position: relative;
+}
+.card .profile-pic{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+
+  object-fit: cover;
+  object-position: center;
+
+  border: 2px solid rgb(100, 90, 234);
+  border-radius: 50%;
+  padding: 2px;
+
+  position: absolute;
+  bottom: -15px;
+  left:50%;
+  transform: translate(-50%);
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.name{
+  font-family: "Grenze Gotisch", serif;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+}
+.title,button{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 105,
+    "YTLC" 500;
+  font-size: 10px;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+  background-color: rgb(100, 90, 234);  
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+
+.btns{
+  display: flex;
+  gap: 12px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  font-size:10px ;
+  color:white;
+  background-color: rgb(113, 104, 238) ;
+  border: none;
+  border-radius: 20px;
+  padding:5px 15px;
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+button:hover{
+  background-color: rgb(93, 83, 233);
+}
+button:active{
+  transform: scale(0.95);
+}
+
+.interaction {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 11px;
+}
+.data{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 0 20px;
+  
+  color: rgb(61, 78, 72);
+
+  border-right: 1px solid rgb(200, 200, 200);
+}
+i {
+  cursor: pointer;
+}
+i:active{
+  color: red;
+}
