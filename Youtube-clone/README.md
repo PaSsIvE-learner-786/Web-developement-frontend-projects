@@ -17,7 +17,8 @@ It’s a static project (no JavaScript functionality yet) designed to showcase c
 ---
 
 ## 📸 Screenshots
-(Add screenshots or GIFs of your project here once you push it to GitHub Pages)
+
+![alt text](image.png)
 
 ---
 
