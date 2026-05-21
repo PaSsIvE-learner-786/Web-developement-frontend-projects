@@ -60,7 +60,7 @@ javaScript-mini-projects/
 1. Clone this repository:
 
 ```bash
-   git clone https://github.com/PaSsIvE-learner-786/Web-developement-frontend-projects
+   git clone https://github.com/PaSsIvE-learner-786/Web-developement-frontend-projects.git
 ```
 
 2. Navigate into the project folder:
