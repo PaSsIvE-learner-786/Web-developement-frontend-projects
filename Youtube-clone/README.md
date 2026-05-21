@@ -60,13 +60,13 @@ javaScript-mini-projects/
 1. Clone this repository:
 
 ```bash
-   git clone https://github.com/aasimali8-Sudo/Web-developement-frontend-projects
+   git clone https://github.com/PaSsIvE-learner-786/Web-developement-frontend-projects
 ```
 
 2. Navigate into the project folder:
 
 ```bash
-   cd Youtube-clone
+   cd Web-developement-frontend-projects/Youtube-clone
 ```
 
 3. Open index.html in your browser.

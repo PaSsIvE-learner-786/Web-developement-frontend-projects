@@ -38,13 +38,13 @@ A simple and responsive profile card built using HTML and CSS. This project focu
 1. Clone this repository:
 
 ```bash
-   git clone https://github.com/aasimali8-Sudo/Web-developement-frontend-projects
+   git clone https://github.com/PaSsIvE-learner-786/Web-developement-frontend-projects
 ```
 
 2. Navigate into the project folder:
 
 ```bash
-   cd profileCard
+   cd Web-developement-frontend-projects/profileCard
 ```
 
 3. Open index.html in your browser.
