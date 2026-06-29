@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 .sidebar{
   position: fixed;
   top: 56px;
@@ -9,7 +15,7 @@
   z-index: 200;
 }
 
-.sidebar div{
+.sidebar-item{
   height: 76px;
   
   display: flex;
@@ -17,7 +23,7 @@
   align-items: center;
   justify-content: center;
 }
-.sidebar div:hover{
+.sidebar-item:hover{
   background-color: rgb(240, 240, 240);
   cursor: pointer;
 }
@@ -32,18 +38,38 @@
 }
 
 
-/* @media (min-width: 1200px) {
-  .sidebar{
+/* @media (min-width: 1200px) { */
+  /* .sidebar{       
     width: 140px;
-  }
-  .sidebar div {
+  } */
+  /* we don't need to do this and it won't work we can directly change the width of the sidebar using DOM 
+  const sidebar = document.querySelector(".sidebar");
+  sidebar.style.width = "140px"; */
+ 
+  /* .sidebar{       
+    width: 140px;
+  } */
+  
+  /* flex-direction: row; */
+  /* const sidebarItem = document.querySelector(".sidebar-item");
+  sidebarItem.style.flexDirection = "row"; */ 
+ 
+  /* .sidebar-item{ 
+    height: 76px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 24px;
+    align-items: center;
+    padding-left: 22px;
     gap: 5px;
   }
   body{
     padding-left: 164px;
   }
 } */
+
+/* 
+.side-bar-icon-text{
+  font-size: 14px;
+  margin-top: 2px; 
+}*/

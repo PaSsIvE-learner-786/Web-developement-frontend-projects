@@ -21,27 +21,31 @@
 
 <body>
 
+<!-- Header -->
 
   <header class="header">
+    <!-- left section -->
     <div class="left-section">
-      <img src="icons/hamburger-menu.svg" alt="YourTube Logo" class="hamburger-menu-logo">
-      <img src="icons/youtube-logo.svg" alt="YourTube Logo" class="youtube-logo">
+    <button id="hamburger-menu-button">
+        <img src="icons/hamburger-menu.svg" alt="Hamburger Menu" class="hamburger-menu-logo">
+      </button>
+      <a href="index.html" alt="YourTube Logo">
+        <img src="icons/youtube-logo.svg" alt="YourTube Logo" class="youtube-logo">
+      </a>
     </div>
-
+    <!-- middle section -->
     <div class="middle-section">
       <input type="text" placeholder="Search" class="search-bar">
-
       <button class="search-button">
         <img src="icons/search.svg" alt="Search Icon" class="search-icon">
         <div class="tooltip">Search</div>
       </button>
-
       <button class="voice-search-button">
         <img src="icons/voice-search-icon.svg" alt="Voice Search Icon" class="voice-search-icon">
         <div class="tooltip">Search with your voice</div>
       </button>
     </div>
-
+    <!-- right section -->
     <div class="right-section">
       <div class="container">
         <img src="icons/upload.svg" alt="Upload Icon" class="upload-icon">
@@ -62,35 +66,54 @@
 
 
 
+<!-- Side Bar -->
 
   <nav class="sidebar">
-    <div>
-      <img src="icons/home.svg" alt="Home Icon">
-      <p class="side-bar-icon-text">Home</p>
-    </div>
-    <div>
-      <img src="icons/explore.svg" alt="Explore Icon">
-      <p class="side-bar-icon-text">Explore</p>
-    </div>
-    <div>
-      <img src="icons/subscriptions.svg" alt="Subscriptions Icon">
-      <p class="side-bar-icon-text">Subscriptions</p>
-    </div>
-    <div>
-      <img src="icons/originals.svg" alt="Originals Icon">
-      <p class="side-bar-icon-text">Originals</p>
-    </div>
-    <div>
-      <img src="icons/youtube-music.svg" alt="YouTube Music Icon">
-      <p class="side-bar-icon-text">YouTube Music</p>
-    </div>
-    <div>
-      <img src="icons/library.svg" alt="Library Icon">
-      <p class="side-bar-icon-text">Library</p>
-    </div>
+    <a href="index.html" alt="Home">
+      <div class="sidebar-item">
+        <img src="icons/home.svg" alt="Home Icon">
+        <p class="side-bar-icon-text">Home</p>
+      </div>
+    </a>
+
+    <a href="explore.html" alt="Explore">
+      <div class="sidebar-item" >
+        <img src="icons/explore.svg" alt="Explore Icon">
+        <p class="side-bar-icon-text">Explore</p>
+      </div>
+    </a>
+
+    <a href="subscriptions.html" alt="Subscriptions">
+      <div class="sidebar-item" >
+        <img src="icons/subscriptions.svg" alt="Subscriptions Icon">
+        <p class="side-bar-icon-text">Subscriptions</p>
+      </div>
+    </a>
+    
+    <a href="youtube-music.html" alt="YouTube Music">
+      <div class="sidebar-item"   >
+        <img src="icons/youtube-music.svg" alt="YouTube Music Icon">
+        <p class="side-bar-icon-text">YouTube Music</p>
+      </div>
+    </a>
+    
+    <a href="library.html" alt="Library">
+      <div class="sidebar-item" >
+        <img src="icons/library.svg" alt="Library Icon">
+        <p class="side-bar-icon-text">Library</p>
+      </div>
+    </a>
+
+    <a href="profile.html" alt="Profile">
+      <div class="sidebar-item" >
+        <img src="icons/profile.svg" alt="Profile">
+        <p class="side-bar-icon-text">You</p>
+      </div>
+    </a>
   </nav>
 
 
+<!-- Main Content -->
 
   <main>
     <section class="videos-grid">
